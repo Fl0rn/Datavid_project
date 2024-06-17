@@ -12,4 +12,4 @@ then to start the server you need these commands:
 npm install
 npm start
 
-I also provided a demo witch you can watch!
+I also provided a demo witch you can watch, but you have to download it beacuse its to big.
