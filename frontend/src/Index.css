@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 30px;
+  background-color: antiquewhite;
+  background-image: url("./assets/images/baloons.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Montserrat;
+}

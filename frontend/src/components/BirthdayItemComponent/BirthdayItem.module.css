@@ -1,0 +1,46 @@
+@import "../../util/colors.css";
+.container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.locationAndNameDiv {
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    border-right: 1.5px solid rgb(139, 139, 139);
+}
+
+.nameDiv {
+    display: flex;
+    gap: 0.5rem;
+    padding-bottom: 3px;
+    color: var(--primary-color300);
+    font-weight: bolder;
+}
+
+.locationDiv {
+    font-size: 0.9rem;
+    color: var(--primary-color300);
+}
+
+.fh {
+    border-left: 1px solid rgb(129, 129, 129);
+    height: 40px;  
+}
+.birthdateDiv{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.birthdate {
+  
+    padding-left: 10px;
+    font-weight: bold;
+    color: var(--primary-color300);
+}

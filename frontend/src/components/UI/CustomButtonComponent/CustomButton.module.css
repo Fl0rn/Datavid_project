@@ -1,0 +1,25 @@
+@import "../../../util/colors.css";
+.container {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.container button {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: var(--primary-color700); 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.container button:hover {
+    background-color: var(--primary-color300);  
+}
+
+
+
